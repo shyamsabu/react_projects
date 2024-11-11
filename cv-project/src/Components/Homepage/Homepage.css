@@ -1,0 +1,7 @@
+.content_wrap{
+    padding: 15px;
+    background: url(../../assets/images/background_img.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
