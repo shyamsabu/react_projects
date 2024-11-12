@@ -12,3 +12,45 @@ nav{
     width: 100%;
     background: #fff
 }
+
+.form_group{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+label{
+    font-size:13px;
+    font-weight: 500;
+}
+input{
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background: #fff;
+    width:100%;
+    padding:5px;
+}
+
+input:active,
+input:focus{
+    border: 1px solid #ccc;
+}
+input:focus-visible{
+    border:none;
+}
+button{
+    height: 30px;
+    width: fit-content;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    background: #875ded;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+}
